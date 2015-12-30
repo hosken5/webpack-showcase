@@ -1,0 +1,32 @@
+{
+  "name": "webpack-showcase",
+  "version": "1.0.0",
+  "description": "webpackdemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hosken5/webpack-showcase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hosken5/webpack-showcase/issues"
+  },
+  "homepage": "https://github.com/hosken5/webpack-showcase#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "node-libs-browser": "^0.5.3",
+    "strip-loader": "^0.1.0",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "react": "^0.14.3"
+  }
+}
